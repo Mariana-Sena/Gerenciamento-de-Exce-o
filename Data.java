@@ -78,10 +78,6 @@ public class Data {
             System.out.println("classe:" + ex.getClass());
             
         }
-        finally{
-            //arquivo.close();
-            System.err.println("Sou sempre executado para liberar recursos alocados");
-        }
      
       Data al = new Data();
       
