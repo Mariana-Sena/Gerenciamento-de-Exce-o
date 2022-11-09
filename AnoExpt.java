@@ -9,15 +9,15 @@ public class AnoException extends Exception{
     }
 
     public AnoException(String message) {
-        super(message);
+        super(message); /*herança*/
     }
 
     public AnoException(String message, Throwable cause) {
-        super(message, cause);
+        super(message, cause);  /*herança*/
     }
 
     public AnoException(Throwable cause) {
-        super(cause);
+        super(cause); /*herança*/
     }
 
     public AnoException(String message, Throwable cause, boolean enableSuppression, boolean StackTrace) {
